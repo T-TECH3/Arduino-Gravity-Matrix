@@ -11,7 +11,7 @@ The Arduino Gravity Matrix is an embedded systems project that simulates real-ti
 - MAX7219 Module (1x)
 - GY-521 Module (1x)
 - Mini Breadboard (1x)
-- Momentary Button with male connection (1x)
+- Momentary Button with Male Connection (1x)
 - Male to Male Jump Wire (3x)
 - Male to Female Jump Wire (8x)
 - Male to Female Pin Header (1x)
