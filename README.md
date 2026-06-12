@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Arduino Gravity Matrix</h1>
+  <h1>Electronic Gravity Matrix</h1>
 </div>
 
 ![Gravity Matrix](Gravity%20Matrix%20Front%20Cover.png)
