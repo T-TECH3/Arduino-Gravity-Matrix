@@ -6,6 +6,9 @@
 
 ## Description
 The Electrnoic Gravity Matrix is an embedded systems project that simulates real-time gravitational physics on a physical dot-matrix display. The system utilizes an Uno R3 microcontroller paired with an Inertial Measurement Unit (IMU) and an 8x8 LED matrix. The code accounts for IMU drift and is equipped with a reset button. Additionally, it features two distinct algorithms for dynamically calculating the state of the LEDs.
+
+[Video Demonstration](https://youtu.be/sjt5iHAWDqE)
+
 ## Parts
 - Elegoo UNO R3 (1x) ([Buy](https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU?crid=374CAB1PJ7864&dib=eyJ2IjoiMSJ9.h6uflpb-pI_XRs8OGSeEmsAcnK4sqnHuU5TsAgWI6WjgcrqDoNKMksF7h2pg0o7w7EGw3FpMuGmElOWW9cPvVCtaRHA39ZIkLuOLcQaofjsy8BZsgLz5uxII_awQT7K3PNpD7hB3StZTDELfJVunpJ1JT9L7lQmyo-wYooDzrO4Xh_UQ2Xs10SxuZCJTAY-_ncVbnq83LCFc7f7AbsRU3WzoZo0kKQzXS9Muep5GIBA.tbHbkNNhlgxm0dk7VJyukU8L7ZGm3-oNMjpKN626Ifw&dib))
 - MAX7219 Module (1x) ([Buy](https://www.amazon.com/HiLetgo-MAX7219-Matrix-Display-Control/dp/B07W6KZR5D?crid=3TAIP3WXOVLAJ&dib=eyJ2IjoiMSJ9.iGFft77a7DIUW6CUJemQ1Vij9O8umykJ3cWv2TTaxrTl1yuURWo29EROtvj7IT9oGzhDg2BGb9Qz7CNBYdGv_7_TrQktmCDq4f5JQRI_zXhqFFQ87nY2cQTwUe1eq2Y3k7jnFDqmUok3hJP3uJjdAPHhdHXp-RepdMdtGWP5OC9UFpfXZK5iJ498xlwrvGcbI9er6RZdkHE4SUqcfWQLx0aoGyYwaAHtnzGRvA49V04.y_3tEnvUwUKVVd3o6PG-_A7rfHtFDL5WXWM7OaIYzPk&dib))
