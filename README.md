@@ -2,7 +2,7 @@
   <h1>Electronic Gravity Matrix</h1>
 </div>
 
-![Gravity Matrix](/Images/Gravity_Matrix.png)
+![Gravity Matrix](Images/Gravity_Matrix.png)
 
 ## Description
 The Arduino Gravity Matrix is an embedded systems project that simulates real-time gravitational physics on a physical dot-matrix display. The system utilizes an Uno R3 microcontroller paired with an Inertial Measurement Unit (IMU) and an 8x8 LED matrix. The code accounts for IMU drift and is equipped with a reset button. Additionally, it features two distinct algorithms for dynamically calculating the state of the LEDs.
@@ -18,7 +18,7 @@ The Arduino Gravity Matrix is an embedded systems project that simulates real-ti
 
 ## Wiring Diagram
 
-![Gravity Matrix Wiring Diagram](/Images/Gravity_Matrix_Wiring_Diagram.png)
+![Gravity Matrix Wiring Diagram](Images/Gravity_Matrix_Wiring_Diagram.png)
 
 Note: The pin locations may vary from component to component, so be sure to double-check the pins are wired to the correct spot.
 
