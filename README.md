@@ -20,12 +20,11 @@ The Arduino Gravity Matrix is an embedded systems project that simulates real-ti
 
 ## Simulation Algorithms
 
-The project has two distinct visual physics algorithms to manipulate the 8x8 LED grid based on the tilt angle ($\theta$) received from the MPU-6050 IMU. Before starting the simulation the program will prompt you to input which algorithm the user wants to use.
+The project has two distinct visual physics algorithms to manipulate the 8x8 LED grid based on the tilt angle ($\theta$) received from the MPU-6050 IMU. Before starting the simulation, the program will allow the user to choose which algorithm to use.
 
-1. Particle Matrix Simulation (`particle_matrix_simulate`)
-This algorithm approach treats every illuminated pixel as an individual particle of sand subject to gravity.
+1. Particle Matrix Simulation (`particle_matrix_simulate`) This algorithm approach treats every illuminated pixel as an individual particle of sand subject to gravity.
 
-* **Gravity Vector:** The tilt angle is translated into individual horizontal and vertical components of force using sine and cosine functions:
+* **Gravity Vector:** The tilt angle is translated into individual horizontal and vertical components of force using sine and cosine functions in radians:
   $$F_x = \sin(\theta), \quad F_y = \cos(\theta)$$
 * **Coordinate Surrounding Mapping:** The function scans the grid to find active pixels (`1`). For each active pixel, it evaluates all 8 immediate neighboring spaces $(k, l)$ where $k, l \in \{-1, 0, 1\}$.
 * **Neighboring Score:** If a neighboring cell is empty (`0`), the algorithm calculates a gravitational weight score for that vacancy:
@@ -33,10 +32,9 @@ This algorithm approach treats every illuminated pixel as an individual particle
 * **Particle Displacement:** The particle shifts into the adjacent empty spot that yields the highest positive score. If no empty space aligns with the downward pull of gravity, the particle remains stationary.
 * **Performance:** Particles dynamically stack, roll over one another, and settle into corners based on individual localized logic. The drawback of this algorithm is the mass, inertia and downward pressure of each particle are not taken into account, making the matrix appear "clunky" and not visualy smooth.
 
-2. Line Matrix Simulation (`line_matrix_simulate`)
-This algorithm approach illuminates particles under a line that tilts dynamically across the matrix. 
+2. Line Matrix Simulation (`line_matrix_simulate`) This algorithm approach illuminates particles under a line that tilts dynamically across the matrix. 
 
-* **Trigonometric Calculation:** The algorithm converts the angle from degrees to radians and calculates the tangent slope ($$m = \tan(\theta)$$) of the dividing line.
+* **Line Calculation:** The algorithm converts the angle from degrees to radians and calculates the tangent slope ($$m = \tan(\theta)$$) of the dividing line.
 * **Coordinate Mapping:** It iterates through every coordinate $(i, j)$ on the 8x8 grid. For each column ($i$), it maps a $Y$-intercept ($line\_y$) relative to the center of the display:
   $$line\_y = m \times (i - 4) + 3.5$$
 * **LED Illumination:** LEDs are illuminated selectively depending on whether the row index ($j$) falls above or below the calculated line boundary. The behavior splits at $\pm90^\circ$ to handle full inversions cleanly.
