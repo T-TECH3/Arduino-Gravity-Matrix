@@ -16,7 +16,11 @@ The Arduino Gravity Matrix is an embedded systems project that simulates real-ti
 - Male to Female Jump Wire (8x) ([Buy](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTHR2RL?crid=2PUM1PW8GLZCQ&dib=eyJ2IjoiMSJ9.OdANVAycega4z3tzwcWpwgM7KqtvuGeZB1Dxq0d-fVlbohuf4TzketN0Qhlrlgdg2Z98JaZwPMsLybEv7FAMpgiee8EpkNGLTFBtywKnseCIy6E4XzPWjBnIR8YFbLFMT4fMIgfUEGHI_V1pwsMVYXGKTw__8G5Xcboq1UqKO7RI_vqcT2Zfnc1Yd8gfmWt_nVJxa1kqd4muD7ecxJYWcYoaFW17Ow-VN7UX1Y5PjVE.eibJBjve-xyE2epJrpW7AengBWEGgupfbqTvJySlEYg&dib))
 - Male to Male Pin Header (1x) ([Buy](https://www.amazon.com/Straight-Breakaway-Connector-Breadboard-Electronic/dp/B0FRZW75VS?crid=V3KCZOR1ODTD&dib=eyJ2IjoiMSJ9.eIyrgscRldYhIdB4VgLCMK9NJ0M0VW6jbcIUTBWbh72qV6q1UHurdPOTjBO4Uz4lgqNlPucNigJyXkLhaWlJQbigYJkPBGmT68ggCKrm9l5BIJvYjcHoO-BYW7dGElPsWnCgUgDIHO2NnGOq8srNMbczLuueRS7PzXOPgQSyVLgNzyxXqANRAg1vWY55VAy0Gn0ZVgocJVN2lrHeZ9jZ3uVhTWFnqZqFah9XjtRcR9I.ypBCWPRmKNMW2R3wsBF1hlCN_ThPem3z6t3DkGEfoSk&dib)))
 
-## Wiring Diagrams
+## Wiring Diagram
+
+![Gravity Matrix](Gravity%20Matrix%20Wiring%20Diagram.png)
+
+Note: The pin locations may vary from component to component, so be sure to double-check the pins are wired to the correct spot.
 
 ## Simulation Algorithms
 
