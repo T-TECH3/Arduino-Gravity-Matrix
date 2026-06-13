@@ -18,8 +18,6 @@ The Arduino Gravity Matrix is an embedded systems project that simulates real-ti
 
 ## Wiring Schematics
 
-## Simulation Algorithm
-
 ## Simulation Algorithms
 
 The project has two distinct visual physics algorithms to manipulate the 8x8 LED grid based on the tilt angle ($\theta$) received from the MPU-6050 IMU. Before starting the simulation the program will prompt you to input which algorithm the user wants to use.
